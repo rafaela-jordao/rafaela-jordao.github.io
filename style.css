@@ -1,0 +1,22 @@
+body {
+    background-color:#058e8e;
+    color:white;
+    font-family: inherit;
+}
+.header{
+    font-family:monospace;
+    color: #333;
+    background-color: lightslategray;
+    background-position: center;
+    padding: 10px 90px 10px 94px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+p{
+    font-size: 17px;
+}
+
+img {
+    border-radius: 30%;
+}

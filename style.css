@@ -1,14 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Poppins:wght@200&display=swap');
+
 body {
-    background-color:#058383;
-    color:white;
-    font-family: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:#1E1E2A;
 }
-.header{
-    font-family:monospace;
-    color:#1C1C1C;
-    background-color:#DCDCDC;
-    
+ .header-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #60E1E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+ }
+
+#foto-rafa {
+  border-radius: 50%;
 }
+
+  h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: -35px;
+  }
+
+  .social-media {
+    margin-top: 1rem;
+    display: flex;
+  }
+
+  .social-media a {
+    text-decoration: none;
+    color:#1E1E2A;
+    padding: 1rem 4rem;
+    border: 1px solid #1E1E2A;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+  }
+
+  a:hover {
+    background-color: #fff;
+  }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.menu-items ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 0;
+} 
+
+.menu-items ul li {
+  display: inline;
+  font-size: 18px;
+} 
+
+.menu-items ul li a {
+	display: inline-block;
+  background-color: #60E1E0;
+	color: #1E1E2A;
+	text-decoration: none;
+}
+
+.menu-items ul li a:hover {
+  transform: scale(1.3); 
+} 
+ 
+.container {
+    margin-top: 10px ;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:#000000;
+ }
+
+ #soft-skills, #hard-skills {
+  border-radius: 50%;
+ }
+
+ .skills {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 20px;
+ }
+
+ .footer {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #60E1E0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1E1E2A;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

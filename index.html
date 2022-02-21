@@ -5,47 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Rafaela Jordão</title>
-    <link rel= "stylesheet" type="text/css" href="style.css"
+    <link rel= "stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
     
 </head>
-
 <body>
-    <header class="header">
-
-        <h1>Rafaela Ferreira Jordão da Silva</h1>
-        <h2><em>Estudante de Desenvolvimento Web</h2></em>
-        <br>
-        <img id="foto-rafa" src="Imagens/foto-rafa.jpg" width="200px"
- <br><br><br>
-    <ul>
-    <li><a href="#foto-rafa">Rafaela Jordão</a></li><br>
-    <li><a href="#Eu">Quem Sou Eu</a></li><br>
-    <li><a href="#Habilidades">Habilidades</a></li><br>
-    <li><a href="#Redes">Redes Sociais</a></li><br>
-    </ul>
+    <header class="header-container">
+        <div class="header" id="home">
+                    <nav class="menu-items">
+                        <ul>
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#Eu">Sobre mim</a>
+                            </li>
+                            <li>
+                                <a href="#habilidades">Habilidades</a> 
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="img">
+                    <img id="foto-rafa" src="Imagens/IMG_9106.jpg" width="300px">
+                </div>
+            </div>
+        </div>
+        <h1>Rafaela Jordão</h1>
+        <h2>Estudante de Desenvolvimento Web</h2>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/jordaorafaela/" target="_blank">Linkedin</a>
+            <a href="https://github.com/rafaela-jordao" target="_blank">Github</a>
+        </div>
     </header>
-    <br><br>
-    <h3>Quem Sou Eu</h3>
-    <p id="Eu">Olá, meu nome é Rafaela, sou natural de Vassouras/RJ e moro na cidade de <strong>São Paulo/SP - Brasil.</strong><br>
-    Formada em Administração e Estudante de Desenvolvimento Web em transição de Carreira.<br>
-    Fotografia, música, esportes e cafés são algumas das minhas paixões.</p>
-<p><em>Onde estudo Desenvolvimento Web?</em> Conheça a <a href="https://www.betrybe.com/" target="_blank">Trybe.</a></p>
-<br><br>
-    <h3 id="Habilidades">Habilidades</h3>
-    <ul>
-    <li>Organização</li>
-    <li>Proatividade</li>
-    <li>Boa Comunicação</li>
-    <li><strong>Resiliência</strong></li>
-    <li>Pensamento Crítico</li>
-    </ul>
-<br><br>
-    <h3 id="Redes">Siga-me nas Redes Sociais</h3>
-<br><br>
-    <img src="Imagens/logo-github.png" width="40px"><a href="https://github.com/rafaela-jordao" target="_blank">GitHub</a>
-<br><br>
-    <img src="Imagens/logo-linkedin.png" width="40px"><a href="https://www.linkedin.com/in/jordaorafaela/" target="_blank">LinkedIn</a>
-<br><br>
-    
+
+    <main class="container">
+        <div class="bio">
+            <h3>Quem Sou Eu</h3>
+              <p id="Eu">Olá, meu nome é Rafaela, sou natural de Vassouras/RJ e atualmente moro na cidade de <strong>São Paulo/SP - Brasil.</strong><br>
+              Formada em Administração e Estudante de Desenvolvimento Web em transição de Carreira.<br>
+              Fotografia, música, esportes e cafés são algumas das minhas paixões.</p>
+              <p><em>Onde estudo Desenvolvimento Web?</em> Conheça a <a href="https://www.betrybe.com/" target="_blank">Trybe.</a></p>
+        </div>
+        <div id="habilidades" class="skills">
+            <div class="img-skills">
+                <img id="soft-skills" src="./Imagens/SoftSkills.PNG" width="150px">
+            </div>
+            <ul>
+                <li>Organização</li>
+                <li>Proatividade</li>
+                <li>Boa Comunicação</li>
+                <li>Resiliência</li>
+                <li>Pensamento Crítico</li>
+            </ul>
+
+            <img id="hard-skills" src="Imagens/HardSkills.PNG" width="150px">
+            <ul>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>React</li>
+            </ul>
+
+
+        </div>
+
+    </main>
+    <footer class="footer">
+        Feito por Rafaela Jordão
+    </footer>
+
+    <!-- Portfólio em construção -->
 </body>
 </html>
